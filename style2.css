@@ -1,0 +1,21 @@
+@charset "utf-8";
+body{
+	margin:0px;
+	padding:0px;
+    background-color:white;
+    animation-name: body;
+   animation-duration:.5s;
+}
+div{
+    margin: auto;
+  border: 1px solid blue;
+  width: 100px;
+  height: 100px;
+  background-color:black;
+  color: white;
+  animation: mymove 5s 3;
+    margin-top: 400px;
+}
+@keyframes mymove {
+  50% {transform: rotate(360deg); width:150px; height:150px;}
+}
